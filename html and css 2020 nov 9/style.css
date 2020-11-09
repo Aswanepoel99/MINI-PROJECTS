@@ -6,28 +6,48 @@ body, ul, li, h1, h2, a{
 }
 
 /* navbar */
+nav{
+    padding: 20px;
+    background: bisque;
+}
 nav ul{
     list-style-type: none;
-    
+    display: flex;
+    margin-left: 30px;
+}
+nav ul li{
+    padding: 10px;
 }
 
 /* articles */
+.widthseperator {
+    display: flex;
+    justify-content: center;
+}
 body{
     background: lightgray;
 }
 .article-row{
     display: flex;
+    max-width: 80%;
+
+}
+.article-row article{
+    background:white;
+    border: 2px solid black;
+    margin: 20 px;
 }
 
 
 /* footer */
 footer{
     background: bisque;
+    position: relative;
+	bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-	bottom: 0;
+
 
 }
 footer ul {
