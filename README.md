@@ -1,1 +1,1 @@
-Mini projects will be a repo to hold quick practice projects that are not worth their own repo
+This will be a repository to hold quick practice projects that are not worth their own repository
