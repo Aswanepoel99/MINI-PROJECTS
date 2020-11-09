@@ -1,0 +1,43 @@
+/* css reset */
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+	font-family: arial;
+}
+
+/* navbar */
+nav ul{
+    list-style-type: none;
+    
+}
+
+/* articles */
+body{
+    background: lightgray;
+}
+.article-row{
+    display: flex;
+}
+
+
+/* footer */
+footer{
+    background: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+	bottom: 0;
+
+}
+footer ul {
+    list-style: none;
+    line-height: 1.5em;
+    margin-left: 20px;
+}
+
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
