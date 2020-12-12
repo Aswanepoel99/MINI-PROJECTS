@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(241, 148, 9);
+    text-align: center;
+}
+
+.flexy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: rgb(0, 0, 0) solid 3px;
+    background-color: rgb(241, 94, 9);
+    width: 220px;
+}
+
+/* result screen */
+.result {
+    border: 2px solid rgb(241, 148, 9);
+    background-color:  rgb(252, 227, 190);
+    /* min-width: 202px; */
+    width: 202px;
+    padding-left: 5px;
+}
+.sum {
+    font-size: 1.1em;
+    float: left;
+}
+.res {
+    text-align: center;
+    font-size: 2em;
+}
+
+/* keypad */
+
+
+button {
+    padding: 1.5em;
+    margin: 0;
+    border:1px solid rgb(241, 148, 9);
+    background-color: silver;
+    width: 50px;
+}
+
+button:hover {
+    background-color: rgb(216, 211, 211);
+}
